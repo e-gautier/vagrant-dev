@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+FOLDER=vagrant-dev
+URL=https://github.com/e-gautier/vagrant-dev.git
+
+if [ ! -d "$FOLDER" ] ; then
+    git clone "$URL" "$FOLDER"
+fi
+
+cd $FOLDER && ENV=$1 vagrant up && vagrant ssh
