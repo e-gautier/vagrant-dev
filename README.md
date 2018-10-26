@@ -1,9 +1,14 @@
 # Vagrant development environment
 ```
-curl | bash -s <env>
+curl https://git.io/fx9OY | bash -s <env>
 ```
+- NodeJs
 ```
-curl | bash -s nodejs
+curl https://git.io/fx9OY | bash -s nodejs
+```
+- All
+```
+curl https://git.io/fx9OY | bash
 ```
 ## Requirements
 - VirtualBox
