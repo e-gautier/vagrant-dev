@@ -7,6 +7,7 @@ case "$1" in
   eval $NODEJS_INSTALL
   ;;
   *)
+  echo "provision all"
   eval $NODEJS_INSTALL
   ;;
 esac
